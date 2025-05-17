@@ -36,6 +36,7 @@ header.scrolled {
     box-shadow: none;
 }
 
+/*iconos */
 
 .header-container {
     display: flex;
@@ -266,6 +267,7 @@ ul {
     padding: 20px;
     border-radius: 12px;
     transition: transform 0.3s, background-color 0.3s;
+    
 }
 
 .icon:hover {
@@ -284,6 +286,19 @@ ul {
     width: 40px;
     height: 40px;
 }
+.icon-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.icon-link:visited,
+.icon-link:hover,
+.icon-link:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /*Chamba*/
 .project-tools img {
