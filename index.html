@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Elvis</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+    <header id="main-header">
+        <div class="header-container">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <button class="boton" id="show-header-btn" >
+    ⬇
+</button>
+
+    
+    
+
+    <section class="profile-section">
+        <img src="https://i.ibb.co/r2yh3TYD/IMG-20220611-212426-026.jpg" alt="Foto de perfil" onclick="openFullscreen(this)">
+        <h1>Elvis Chambi Soruco</h1>
+        <p>Soy desarrollador junior con conocimientos en el desarrollo de aplicaciones móviles, webs y sistemas para Windows. Con 1 año de experiencia</p>
+    </section>
+
+    <section id="skills">
+        <h2>Conocimientos en :</h2>
+    
+        <div class="skills-box">
+            
+            <div class="skills-grid">
+                <div class="icon" title="HTML5" ><i class="fab fa-html5"></i><span>HTML5</span></div>
+                <div class="icon" title="CSS"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+                <div class="icon" title="MySQL"><i class="fas fa-database"></i><span>MySQL</span></div>
+                <div class="icon" title="Java"><i class="fas fa-coffee"></i><span>Java</span></div>
+                <div class="icon" title="Laravel">
+                    <img src="https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000" alt="Laravel">
+                    </i><span>Laravel</span>
+                </div>
+            </div>
+       
+    
+       
+           
+            <div class="skills-grid">
+                <div class="icon" title="Visual Studio Code">
+                    <img src="https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png" alt="Visual Studio Code" />
+                    <span>Visual Studio Code</span>
+                </div>
+                <div class="icon" title="XAMPP"><i class="fas fa-server"></i><span>XAMPP</span></div>
+                <div class="icon" title="Laragon">
+                   <img src="https://cdn.worldvectorlogo.com/logos/laragon.svg"alt="Laragon">
+                    <span>Laragon</span>
+                </div>
+                <div class="icon" title="NetBeans"><i class="fas fa-laptop-code"></i><span>NetBeans</span></div>
+                <div class="icon" title="GitHub"><i class="fab fa-github"></i><span>GitHub</span></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <p>Aquí muestro algunos de mis trabajos divididos en tres categorías:</p>
+    
+        <div class="project-category">
+            <h3>Trabajos Realizados (Realizado en equipo)</h3>
+        
+            <div class="project-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-item">
+                    <img src="https://i.ibb.co/CKHVwRyK/image.png" alt="Sistema de gestión para local de repuestos" class="project-img">
+                    <p class="project-desc">
+                        Sistema de gestión para un local de repuestos de motos. Permite controlar el stock, registrar ventas y generar reportes.
+                    </p>
+                    <p class="project-tools">
+                        <strong>Herramientas utilizadas:</strong><br>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/330px-Apache_NetBeans_Logo.svg.png" alt="NetBeans" title="NetBeans" style="height: 24px; margin-right: 8px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" title="Java" style="height: 24px; margin-right: 8px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL" title="MySQL" style="height: 24px; margin-right: 8px;">
+                        <img src="data:image/png;base64,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" alt="XAMPP" title="XAMPP" style="height: 24px;">
+                    </p>
+                </div>
+        
+                <!-- Proyecto 2 -->
+                <div class="project-item">
+                    <img src="https://i.ibb.co/MkC2S8pn/image.png" alt="Sistema de organización empresarial" class="project-img">
+                    <p class="project-desc">
+                        Sistema de organización para una empresa local. Ayuda en la planificación de tareas, manejo de usuarios y reportes internos.
+                    </p>
+                    <p class="project-tools">
+                        <strong>Herramientas utilizadas:</strong><br>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/330px-Apache_NetBeans_Logo.svg.png" alt="NetBeans" title="NetBeans" style="height: 24px; margin-right: 8px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" title="Java" style="height: 24px; margin-right: 8px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL" title="MySQL" style="height: 24px; margin-right: 8px;">
+                        <img src="data:image/png;base64,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" alt="XAMPP" title="XAMPP" style="height: 24px;">
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="project-category">
+            <h3>Prácticas Profesionalizantes (Realizado en equipo)</h3>
+            <div class="project-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-item">
+                    <img src="https://i.ibb.co/JwBPdkTC/Imagen-de-Whats-App-2025-04-18-a-las-17-59-24-9b7e6446.jpg" alt="Aplicación para laboratorio" class="project-img">
+                    <p class="project-desc">
+                        Aplicación para un laboratorio que permite gestionar muestras, resultados y reportes internos.
+                    </p>
+                    <p class="project-tools">
+                        <strong>Herramientas utilizadas:</strong><br>
+                        <img src="data:image/jpeg;base64,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" alt="Android Studio" title="Android Studio" style="height: 24px; margin-right: 8px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" title="Java" style="height: 24px; margin-right: 8px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" title="Figma" style="height: 24px; margin-right: 8px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL" title="MySQL" style="height: 24px; margin-right: 8px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP" title="PHP" style="height: 24px;">
+                    </p>
+                </div>
+        
+                <!-- Proyecto 2 -->
+                <div class="project-item">
+                    <img src="https://i.ibb.co/dwhcp4M8/image.png" alt="Página web para colegio" class="project-img">
+                    <p class="project-desc">
+                        Página web informativa para un colegio secundario, incluyendo secciones para noticias, contacto, Orientacion de la Institución, Materias, Seccion de historia, Proyectos, Biblioteca, etc. 
+                    </p>
+                    <p class="project-tools">
+                        <strong>Herramientas utilizadas:</strong><br>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" style="height: 24px; margin-right: 8px;">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" style="height: 24px; margin-right: 8px;">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" style="height: 24px; margin-right: 8px;">
+
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL" title="MySQL" style="height: 24px; margin-right: 8px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP" title="PHP" style="height: 24px;">
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <div class="project-category">
+            <h3>Prácticas Personales (Realizado de forma individual)</h3>
+            <div class="project-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-item">
+                    <img src="https://i.ibb.co/JwD5gmtS/image.png" alt="Login-1" class="project-img">
+                    <p class="project-desc">
+                        Login de practica con HTML, CSS.
+                    </p>
+                    <p class="project-tools"><strong>Herramientas utilizadas:</strong> HTML, CSS</p>
+                </div>
+        
+                <!-- Proyecto 2 -->
+                <div class="project-item">
+                    <img src="https://i.ibb.co/XrwsS2H3/image.png" alt="To-do List" class="project-img">
+                    <p class="project-desc">
+                       Login 2 de practica con HTML  CSS.
+                    </p>
+                    <p class="project-tools"><strong>Herramientas utilizadas:</strong> HTML, CSS</p>
+                </div>
+        
+                <!-- Proyecto 3 -->
+                <div class="project-item">
+                    <img src="https://i.ibb.co/y7sMxXW/image.png" alt="Blog personal" class="project-img">
+                    <p class="project-desc">
+                        Galeria de imagenes y videos 
+                    </p>
+                    <p class="project-tools"><strong>Herramientas utilizadas:</strong> PHP, Laravel, HTML, CSS</p>
+                </div>
+
+              <!-- Proyecto 4 -->
+                <div class="project-item">
+                    <img src="https://i.ibb.co/gFMzQnwH/image.png" alt="Colegio" class="project-img">
+                    <p class="project-desc">
+                        Gestor de descargas de YouTube con Netbeans
+                    </p>
+                    <p class="project-tools"><strong>Herramientas utilizadas:</strong> Java,Netbeans</p>
+                </div>
+
+                <div class="project-item">
+                    <img src="https://i.ibb.co/4gJMbYp4/image.png" alt="Colegio" class="project-img">
+                    <p class="project-desc">
+                        Gestor de descargas de YouTube con laravel
+                    </p>
+                    <p class="project-tools"><strong>Herramientas utilizadas:</strong> PHP, Laravel, HTML, CSS</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    
+    <section id="contact" style="max-width: 600px; margin: 2rem auto; padding: 2rem; border-radius: 16px; background-color: #1e1e1e; box-shadow: 0 4px 20px rgba(0,0,0,0.5); color: #fff; text-align: center;">
+        <h2 style="margin-bottom: 1rem; font-size: 2rem;">Contacto</h2>
+        
+        <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Contacto" style="width: 80px; margin-bottom: 1rem;">
+    
+        <p style="font-size: 1.1rem; line-height: 1.6;">
+            Puedes contactarme al número: <a href="https://wa.me/5493888664624" target="_blank" style="color: #4fc3f7; text-decoration: none;">+54 9 3888664624</a><br>
+            o al correo: <a href="mailto:coronadoelvis061@gmail.com" style="color: #4fc3f7; text-decoration: none;">coronadoelvis061@gmail.com</a>.
+        </p>
+    </section>
+    
+   
+    <footer>
+        <p>&copy; 2025 - Mi Portafolio</p>
+    </footer>
+    <script>
+        const header = document.getElementById("main-header");
+        const showBtn = document.getElementById("show-header-btn");
+    
+        let lastScroll = 0;
+    
+        window.addEventListener("scroll", () => {
+            const currentScroll = window.scrollY;
+    
+            if (currentScroll === 0) {
+                // Si vuelve arriba del todo: mostrar el header y ocultar el botón
+                header.style.transform = "translateY(0)";
+                showBtn.style.display = "none";
+            } else if (currentScroll > lastScroll && currentScroll > 50) {
+                // Scroll hacia abajo: ocultar header y mostrar botón
+                header.style.transform = "translateY(-100%)";
+                showBtn.style.display = "block";
+            }
+    
+            lastScroll = currentScroll;
+        });
+    
+        showBtn.addEventListener("click", () => {
+            header.style.transform = "translateY(0)";
+            showBtn.style.display = "none";
+        });
+        function openFullscreen(imgElement) {
+            const fullscreen = document.createElement('div');
+            fullscreen.classList.add('fullscreen-img');
+    
+            const fullImg = document.createElement('img');
+            fullImg.src = imgElement.src;
+    
+            fullscreen.appendChild(fullImg);
+            document.body.appendChild(fullscreen);
+    
+            // Cierra al hacer clic fuera
+            fullscreen.addEventListener('click', () => {
+                fullscreen.remove();
+            });
+    
+            // Cierra con tecla ESC
+            document.addEventListener('keydown', function escClose(e) {
+                if (e.key === "Escape") {
+                    fullscreen.remove();
+                    document.removeEventListener('keydown', escClose);
+                }
+            });
+        }
+    </script>
+    
+    
+</body>
+</html>
