@@ -1,1 +1,2 @@
 # portafolio-
+Este portafolio muestra mis habilidades como desarrollador junior en aplicaciones móviles, sitios web y sistemas de escritorio. Incluye ejemplos de proyectos, tecnologías que manejo y formas de contacto. Desarrollado con HTML, CSS y alojado en GitHub Pages.
