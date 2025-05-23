@@ -382,6 +382,21 @@ hr {
     margin: 40px 0;
 }
 
+.tech-icon {
+    display: inline-block;
+    font-size: 40px;
+    /* Tamaño uniforme para íconos de font-awesome */
+    color: #00d1d1;
+    margin: 0 5px;
+}
+
+.tech-icon img {
+    width: 40px;
+    /* Tamaño uniforme para íconos en imagen */
+    height: 40px;
+    object-fit: contain;
+    vertical-align: middle;
+}
 
 /*footer*/
 footer {
