@@ -33,7 +33,7 @@
 
     <section class="profile-section">
         <img src="https://i.ibb.co/r2yh3TYD/IMG-20220611-212426-026.jpg" alt="Foto de perfil"
-            onclick="openFullscreen(this)">
+            onclick="openFullscreen(this)" Data-github="https://github.com/ELVISTEC12">
         <h1>Elvis Chambi Soruco</h1>
         <p>Soy desarrollador junior con conocimientos en el desarrollo de aplicaciones móviles, webs y sistemas para
             Windows. Con 1 año de experiencia</p>
@@ -113,7 +113,7 @@
             <div class="project-grid">
                 <!-- Proyecto 1 -->
                 <div class="project-item">
-                    <img onclick="openFullscreen(this)" src="https://i.ibb.co/CKHVwRyK/image.png" alt="Sistema de gestión para local de repuestos"
+                    <img onclick="openFullscreen(this)" src="https://i.ibb.co/CKHVwRyK/image.png" alt="Sistema de gestión para local de repuestos" data-github="https://github.com/Pablox2009/repuesto_proyect.git"
                         class="project-img"  class="fullscreen-img" style="width: 200px; cursor: pointer; border-radius: 10px;">
                     <p class="project-desc">
                         Sistema de gestión para un local de repuestos de motos. Permite controlar el stock, registrar
@@ -134,7 +134,7 @@
 
                 <!-- Proyecto 2 -->
                 <div class="project-item">
-                    <img onclick="openFullscreen(this)" src="https://i.ibb.co/MkC2S8pn/image.png" alt="Sistema de organización empresarial"
+                    <img onclick="openFullscreen(this)" data-github="https://github.com/Pablox2009/proyect_controler.git" src="https://i.ibb.co/MkC2S8pn/image.png" alt="Sistema de organización empresarial"
                         class="project-img">
                     <p class="project-desc">
                         Sistema de organización para una empresa local. Ayuda en la planificación de tareas, manejo de
@@ -160,7 +160,7 @@
             <div class="project-grid">
                 <!-- Proyecto 1 -->
                 <div class="project-item">
-                    <img onclick="openFullscreen(this)" src="https://i.ibb.co/JwBPdkTC/Imagen-de-Whats-App-2025-04-18-a-las-17-59-24-9b7e6446.jpg"
+                    <img onclick="openFullscreen(this)" data-github="https://github.com/ELVISTEC12/Proyecto-Bio.lap.git" src="https://i.ibb.co/JwBPdkTC/Imagen-de-Whats-App-2025-04-18-a-las-17-59-24-9b7e6446.jpg"
                         alt="Aplicación para laboratorio" class="project-img">
                     <p class="project-desc">
                         Aplicación para un laboratorio que permite gestionar muestras, resultados y reportes internos.
@@ -182,7 +182,7 @@
 
                 <!-- Proyecto 2 -->
                 <div class="project-item">
-                    <img onclick="openFullscreen(this)" src="https://i.ibb.co/dwhcp4M8/image.png" alt="Página web para colegio" class="project-img">
+                    <img onclick="openFullscreen(this)" data-github="https://github.com/ELVISTEC12/Colegio.git" src="https://i.ibb.co/dwhcp4M8/image.png" alt="Página web para colegio" class="project-img">
                     <p class="project-desc">
                         Página web informativa para un colegio secundario, incluyendo secciones para noticias, contacto,
                         Orientacion de la Institución, Materias, Seccion de historia, Proyectos, Biblioteca, etc.
@@ -212,7 +212,7 @@
             <div class="project-grid">
                 <!-- Proyecto 1 -->
                 <div class="project-item">
-                    <img onclick="openFullscreen(this)" src="https://i.ibb.co/JwD5gmtS/image.png" alt="Login-1" class="project-img">
+                    <img onclick="openFullscreen(this)" data-github="https://github.com/ELVISTEC12/login-1.git" src="https://i.ibb.co/JwD5gmtS/image.png" alt="Login-1" class="project-img">
                     <p class="project-desc">
                         Login de practica con HTML, CSS.
 
@@ -227,7 +227,7 @@
 
                 <!-- Proyecto 2 -->
                 <div class="project-item">
-                    <img onclick="openFullscreen(this)" src="https://i.ibb.co/XrwsS2H3/image.png" alt="To-do List" class="project-img">
+                    <img onclick="openFullscreen(this)" data-github="https://github.com/ELVISTEC12/Login-2.git" src="https://i.ibb.co/XrwsS2H3/image.png" alt="To-do List" class="project-img">
                     <p class="project-desc">
                         Login 2 de practica con HTML CSS.
                     </p>
@@ -241,7 +241,7 @@
 
                 <!-- Proyecto 3 -->
                 <div class="project-item">
-                    <img onclick="openFullscreen(this)" src="https://i.ibb.co/y7sMxXW/image.png" alt="Blog personal" class="project-img">
+                    <img onclick="openFullscreen(this)" data-github="https://github.com/ELVISTEC12/Galeria-laravel.git" src="https://i.ibb.co/y7sMxXW/image.png" alt="Blog personal" class="project-img">
                     <p class="project-desc">
                         Galeria de imagenes y videos
                     </p>
@@ -255,7 +255,7 @@
 
                 <!-- Proyecto 4 -->
                 <div class="project-item">
-                    <img onclick="openFullscreen(this)" src="https://i.ibb.co/gFMzQnwH/image.png" alt="Colegio" class="project-img">
+                    <img onclick="openFullscreen(this)" data-github="https://github.com/ELVISTEC12/Descargar.git" src="https://i.ibb.co/gFMzQnwH/image.png" alt="Colegio" class="project-img">
                     <p class="project-desc">Gestor de descargas de YouTube con Netbeans</p>
                     <p class="project-tools"><strong>Herramientas utilizadas:</strong></p>
                     <div class="tech-icon"><i class="fas fa-coffee"></i></div>
@@ -334,29 +334,44 @@
             header.style.transform = "translateY(0)";
             showBtn.style.display = "none";
         });
+
         function openFullscreen(imgElement) {
-            const fullscreen = document.createElement('div');
-            fullscreen.classList.add('fullscreen-img');
+                const fullscreen = document.createElement('div');
+                fullscreen.classList.add('fullscreen-img');
 
-            const fullImg = document.createElement('img');
-            fullImg.src = imgElement.src;
+                const fullImg = document.createElement('img');
+                fullImg.src = imgElement.src;
+                fullscreen.appendChild(fullImg);
 
-            fullscreen.appendChild(fullImg);
-            document.body.appendChild(fullscreen);
-
-            // Cierra al hacer clic fuera
-            fullscreen.addEventListener('click', () => {
-                fullscreen.remove();
-            });
-
-            // Cierra con tecla ESC
-            document.addEventListener('keydown', function escClose(e) {
-                if (e.key === "Escape") {
-                    fullscreen.remove();
-                    document.removeEventListener('keydown', escClose);
+                // Crear botón de GitHub si hay data-github
+                const githubLink = imgElement.getAttribute('data-github');
+                if (githubLink) {
+                    const githubButton = document.createElement('a');
+                    githubButton.href = githubLink;
+                    githubButton.target = '_blank';
+                    githubButton.innerText = "Ver en GitHub";
+                    githubButton.classList.add('github-button');
+                    fullscreen.appendChild(githubButton);
                 }
-            });
-        }
+
+                document.body.appendChild(fullscreen);
+
+                // Cierra al hacer clic fuera
+                fullscreen.addEventListener('click', (e) => {
+                    if (e.target === fullscreen) {
+                        fullscreen.remove();
+                    }
+                });
+
+                // Cierra con tecla ESC
+                document.addEventListener('keydown', function escClose(e) {
+                    if (e.key === "Escape") {
+                        fullscreen.remove();
+                        document.removeEventListener('keydown', escClose);
+                    }
+                });
+            }
+        
     </script>
 
 
